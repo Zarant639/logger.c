@@ -15,10 +15,17 @@ It asks for your age, validates the input, and logs the age with a timestamp to 
 ## Build and Run
 
 ```bash
-gcc age_logger.c -o age_logger
+## Build and Run
+
+**GCC:**
+```bash
+gcc age_loggerV3.c -o age_logger
 ./age_logger
 
-clang age_logger.c -o age_logger ./age_logger
+**Clang:**
+```bash
+clang age_loggerV3.c -o age_logger
+./age_logger
 ```
 
 Example
