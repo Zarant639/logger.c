@@ -17,6 +17,8 @@ It asks for your age, validates the input, and logs the age with a timestamp to 
 ```bash
 gcc age_logger.c -o age_logger
 ./age_logger
+
+clang age_logger.c -o age_logger ./age_logger
 ```
 
 Example
@@ -51,3 +53,7 @@ GNU General Public License v2.0 — see LICENSE file for details.
 Author
 
 Zarant639
+
+Soauthor
+
+AI (DeepSeek) - helped for debuging code
