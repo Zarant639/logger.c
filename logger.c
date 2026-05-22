@@ -51,15 +51,14 @@ int validate_age(const int *input) {
 }
 // ========================================
 
-// ==== Struct ========
 struct LogEntry {
     int age;
     time_t timestamp;
 };
-// ====================
 
 int attempts = 0;
     int main(void) {
+    extern int is_valid_age(int age);
 
         struct LogEntry entry;
         
@@ -99,7 +98,7 @@ int attempts = 0;
                 }
             
         //Проверяеи возраст пользователя
-                if (*age < MIN_AGE || *age > MAX_AGE) {
+                if (is_valid(age)) {
                     perror("age");
                     return 1;
                 }
